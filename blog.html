@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - First National Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <!-- Added logo image alongside bank name -->
+                <div class="flex items-center space-x-3">
+                    <img src="assets/logo.png" alt="First National Bank Logo" class="h-10 w-10">
+                    <div class="text-2xl font-bold text-blue-600">First National Bank</div>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600">About</a>
+                    <a href="services.html" class="text-gray-700 hover:text-blue-600">Services</a>
+                    <a href="blog.html" class="text-blue-600 font-semibold">Blog</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+                <button class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-4">Financial Insights</h1>
+            <p class="text-xl">Expert advice, tips, and financial news to help you make informed decisions</p>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post 1 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-500">Blog Image Placeholder</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-blue-600 mb-2">Business Strategy</div>
+                        <h2 class="text-xl font-bold mb-3">5 Essential Strategies for Business Growth in 2024</h2>
+                        <p class="text-gray-600 mb-4">Discover the key strategies that successful businesses are using to drive growth and stay competitive in today's market.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-500">March 15, 2024</span>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-500">Blog Image Placeholder</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-blue-600 mb-2">Technology</div>
+                        <h2 class="text-xl font-bold mb-3">The Future of Digital Transformation</h2>
+                        <p class="text-gray-600 mb-4">Explore how digital transformation is reshaping industries and what it means for your business moving forward.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-500">March 10, 2024</span>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-500">Blog Image Placeholder</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-blue-600 mb-2">Marketing</div>
+                        <h2 class="text-xl font-bold mb-3">Maximizing ROI with Data-Driven Marketing</h2>
+                        <p class="text-gray-600 mb-4">Learn how to leverage data analytics to create more effective marketing campaigns and improve your return on investment.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-500">March 5, 2024</span>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-500">Blog Image Placeholder</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-blue-600 mb-2">Security</div>
+                        <h2 class="text-xl font-bold mb-3">Cybersecurity Best Practices for Small Businesses</h2>
+                        <p class="text-gray-600 mb-4">Essential cybersecurity measures every small business should implement to protect their data and customers.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-500">February 28, 2024</span>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-500">Blog Image Placeholder</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-blue-600 mb-2">Productivity</div>
+                        <h2 class="text-xl font-bold mb-3">Remote Work: Tools and Tips for Success</h2>
+                        <p class="text-gray-600 mb-4">Discover the best tools and strategies for maintaining productivity and collaboration in a remote work environment.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-500">February 20, 2024</span>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 6 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-500">Blog Image Placeholder</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-blue-600 mb-2">Innovation</div>
+                        <h2 class="text-xl font-bold mb-3">AI and Automation: Transforming Business Operations</h2>
+                        <p class="text-gray-600 mb-4">How artificial intelligence and automation are revolutionizing business processes and creating new opportunities.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-500">February 15, 2024</span>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Read More</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="flex justify-center mt-12">
+                <nav class="flex space-x-2">
+                    <a href="#" class="px-3 py-2 bg-white border border-gray-300 rounded-md hover:bg-gray-50">Previous</a>
+                    <a href="#" class="px-3 py-2 bg-blue-600 text-white rounded-md">1</a>
+                    <a href="#" class="px-3 py-2 bg-white border border-gray-300 rounded-md hover:bg-gray-50">2</a>
+                    <a href="#" class="px-3 py-2 bg-white border border-gray-300 rounded-md hover:bg-gray-50">3</a>
+                    <a href="#" class="px-3 py-2 bg-white border border-gray-300 rounded-md hover:bg-gray-50">Next</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Stay Updated</h2>
+            <p class="text-xl mb-8">Subscribe to our newsletter for the latest insights and business tips</p>
+            <div class="max-w-md mx-auto flex">
+                <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-l-lg text-gray-900">
+                <button class="bg-white text-blue-600 px-6 py-3 rounded-r-lg font-semibold hover:bg-gray-100 transition duration-300">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">First National Bank</h3>
+                    <p class="text-gray-400">Your trusted financial partner providing comprehensive banking and financial services.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Consulting</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Development</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-400">Email: info@firstnationalbank.com</p>
+                    <p class="text-gray-400">Phone: (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 First National Bank. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
