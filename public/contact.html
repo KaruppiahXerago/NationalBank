@@ -5,6 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - First National Bank</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.adobeDataLayer = window.adobeDataLayer || [];
+
+        // Push pageLoad event
+        window.adobeDataLayer.push({
+            "event": "pageLoad",
+            "pageInfo": {
+                "name": document.title,
+                "siteSection": (function () {
+                    const pathParts = location.pathname.split("/").filter(Boolean);
+                    return pathParts.length > 0 ? pathParts[0] : "home";
+                })(),
+                "url": location.href
+            }
+        });
+
+        // Track button clicks on .banner-button
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".banner-button").forEach(function (button) {
+                button.addEventListener("click", function (e) {
+                    window.adobeDataLayer.push({
+                        "event": "buttonClick",
+                        "button": {
+                            "ctatext": e.target.innerText.trim(),
+                            "href": e.target.getAttribute("href") || null
+                        },
+                        "pageInfo": {
+                            "name": document.title,
+                            "url": location.href
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+    <script src="https://assets.adobedtm.com/4fa03d1212c6/b7ec2c73ecb8/launch-d82f94394f6f-development.min.js" async></script>
 </head>
 <body class="bg-gray-50">
     <!-- Navigation -->
